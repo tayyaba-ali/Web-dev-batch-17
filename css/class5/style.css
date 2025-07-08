@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+
+.main{
+    min-width: 100px;
+    max-width: 1000px;
+    background-color: brown;
+}
+.main img{
+    width: 100%;
+} */
+
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: brown;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+
+h1{
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red blue green purple;
+    border: 5px solid rebeccapurple;
+    width: 100px;
+    height: 100px;
+    /* margin-left:608px ; */
+    /* margin:  0 auto; */
+    /* margin-top: 272px;
+    margin-top: 300px; */
+    margin: 20px;
+    padding: 10px;
+    /* display: inline-block; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* box-shadow: 5px 2px 5px green; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+}

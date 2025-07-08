@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+p{
+    background-color: blue;
+    padding: 0px 0px 0px 100px;
+    /* padding: 40px; */
+    /* padding: 30px 50px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px
+}

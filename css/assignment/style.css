@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding:  0 20px;
+    align-items: center;
+}
+.logoImg{
+    display: flex;
+    align-items: center;
+}
+.logoImg img{
+    width: 100px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.nav-links>li{
+    list-style: none;
+
+}
+.nav-links li a {
+    text-decoration: none;
+}

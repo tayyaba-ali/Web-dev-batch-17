@@ -1,0 +1,41 @@
+/* h1{
+   background-color: aqua;
+  
+} */
+
+
+/* .head {
+    background-color: cadetblue;
+
+    color: aquamarine;
+}
+
+#heading1{
+ background-color: crimson;
+} */
+
+/* group selector */
+/* h1,p,a{
+    background-color: aquamarine;
+} */
+
+
+/* 
+*{
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 200px;
+    font-style: italic;
+    font-weight: 700;
+    font-family:cursive;
+} */
+
+h1{
+    background-color: cadetblue;
+}
+h1{
+    background-color: brown;
+}
+h1{
+    background-color: blue;
+}

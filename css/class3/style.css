@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tsukimi+Rounded&display=swap'); */
+
+
+@font-face {
+    font-family: "roboto";
+    src: url("./fonts/Roboto_Condensed-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "roboto-semibold";
+    src: url("./fonts/Roboto_Condensed-SemiBold.ttf");
+}
+
+
+
+h1 {
+    /* color name */
+    /* color: #FF0000;
+    background-color: #7a2be2b8; */
+
+    /* color: rgb(200, 200, 255); */
+    color: rgba(144, 49, 87);
+    background-color: aqua;
+    opacity: 80%;
+
+    /* fallback */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    /* font-family: "Tsukimi Rounded", sans-serif; */
+
+    font-family:"roboto" ;
+}
+ul{
+    font-family: "roboto-semibold";
+}
