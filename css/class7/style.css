@@ -1,0 +1,23 @@
+/* .my-fo */
+
+/* ul{
+    list-style-image: url("https://cdn-icons-png.flaticon.com/256/109/109617.png");
+} */
+img{
+    width: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+}
+ul{
+    list-style-position: inside;
+}
+table{
+    empty-cells: hide;
+    cursor:grabbing;
+}

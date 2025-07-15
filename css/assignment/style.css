@@ -1,30 +1,99 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    /* background-color: aqua; */
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
-    padding:  0 20px;
+    padding: 0 20px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 249, 244);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+    height: 50px;
+
 }
-.logoImg{
+
+.logoImg {
     display: flex;
     align-items: center;
 }
-.logoImg img{
+
+.logoImg img {
     width: 100px;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     gap: 20px;
 }
-.nav-links>li{
+
+.nav-links>li {
     list-style: none;
 
 }
+
 .nav-links li a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/* shoe container */
+
+.flex-container {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.shoe1 {
+    width: 400px;
+    padding: 20px;
+    background-color: #F1F1F1;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imgDiv {
+    width: 100%;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+.shopping img {
+    width: 20px;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.shopping {
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
