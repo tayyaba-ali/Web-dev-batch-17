@@ -92,8 +92,41 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+
+/* media queries */
+
+i {
+    display: none !important;
+}
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    body {
+        background-color: aqua;
+    }
+
+    header {
+        padding: 0px 10px;
+        width: 100%;
+    }
+
+    i {
+        display: block !important;
+        font-size: 25px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .logoImg img{
+        width: 52px;
+    }
+
 }
