@@ -120,13 +120,14 @@ i {
         display: block !important;
         font-size: 25px;
     }
+    
 
     .nav-links {
         display: none;
     }
-
     .logoImg img{
-        width: 52px;
+        width: 51px;
     }
 
+   
 }
