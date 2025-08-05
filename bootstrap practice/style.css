@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.bg-custom {
+    background: #FFFFFF !important;
+
+}
+
+.btn-green {
+    background-color: #4CAF4F;
+}
+
+.btn-green:hover {
+    background-color: #4CAF4F;
+
+}
+
+.green-text {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    letter-spacing: 0%;
+    color: #4CAF4F !important;
+
+}
+
+.text-custom {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    letter-spacing: 0%;
+
+}
