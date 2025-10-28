@@ -1,0 +1,8 @@
+body{
+    background-image: url("./images/car\ bg.jpg");
+}
+img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
