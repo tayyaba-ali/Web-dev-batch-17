@@ -24,6 +24,8 @@ addTask.addEventListener("click", () => {
     console.log(updatedTodo);
 
     previousTask.innerHTML = updatedTodo;
+    addTask.innerText = "Add Task"
+    task.value = " "
 
     // userTodo.innerText = updatedTodo;
   }
