@@ -6,7 +6,7 @@ addTask.addEventListener("click", () => {
   if (addTask.innerHTML == "Add Task") {
     console.log(task);
 
-    list.innerHTML += `<div class="main"><li>${task.value}</li> <div> <button onclick="edit(this)">Edit</button> <button>Delete</button></div> </div>`;
+    list.innerHTML += `<div class="main"><li>${task.value}</li> <div> <button onclick="edit(this)">Edit</button> <button  onclick="removeTodo(this)">Delete</button></div> </div>`;
     task.value = " ";
   } else {
     console.log("else chlrha ha");
@@ -24,8 +24,8 @@ addTask.addEventListener("click", () => {
     console.log(updatedTodo);
 
     previousTask.innerHTML = updatedTodo;
-    addTask.innerText = "Add Task"
-    task.value = " "
+    addTask.innerText = "Add Task";
+    task.value = " ";
 
     // userTodo.innerText = updatedTodo;
   }
@@ -41,4 +41,8 @@ function edit(element) {
   console.log(element.parentNode.parentNode.firstChild.innerText);
 
   addTask.innerHTML = "Save";
+}
+
+function removeTodo(event) {
+  event.parentNode.parentNode.innerHTML = " "
 }
